@@ -1,0 +1,15 @@
+
+server:
+  port: 443
+  ssl:
+    # The format used for the keystore. It could be set to JKS in case it is a JKS file
+    keyStoreType: PKCS12
+    # The path to the keystore containing the certificate (filename: keystore.p12)
+    key-store: classpath:keystore.p12
+    # The password used to generate the certificate
+    key-store-password: password
+    # The alias mapped to the certificate
+    keyAlias: jsutforlulz-tomcat
+
+security:
+  require-ssl: true

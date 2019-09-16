@@ -1,0 +1,5 @@
+trust:
+  store: classpath:keystore.p12
+  password: password
+
+ssldomain: https://justforlulz.tk
